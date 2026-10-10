@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sultaniqz</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">
+    <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1557157215708778496/559C36C7-9535-41E5-944E-E6A791DA5BF5.png?backend=b2&ex=6ac96a2a&is=6ac818aa&hm=da326526a6e23770830b2fa74c0d5c636d3350ec34dcd4044bb0b776d274f10d&"Sultaniqz Logo">
+    <span>SULTANI</span><b>QZ</b>
+    
+</div>
+  
+<button class="menu-btn" onclick="openMenu()">
+☰
+</button>
+
+  
+<div class="side-menu" id="sideMenu">
+  <button class="close-btn" onclick="closeMenu()">×</button>
+
+<h3>
+  <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1557138746267406457/D39288EF-07EF-4A7A-A891-31154740F936.png?backend=b2&ex=6ac6b5f7&is=6ac56477&hm=2d1fd6f6c8dc52ff51955f9080e676348c486ebeff539a4259d70a67fed4e810&" class="menu-logo">
+  <span class="menu-white">Sultan</span><span class="menu-red">iQZ</span>
+</h3>
+
+<div class="menu-list">
+
+
+<a href="#" onclick="openHistory()">
+    <span class="menu-icon">
+        <svg viewBox="0 0 24 24">
+            <path d="M4 4h16v16H4z"/>
+            <path d="M7 8h10"/>
+            <path d="M7 12h6"/>
+            <path d="M7 16h8"/>
+        </svg>
+    </span>
+    <span>ປະຫວັດການສັ່ງຊື້</span>
+</a>
+   
+</div>
+  
+  <div class="contact-menu">
+
+  <a href="https://www.facebook.com/Sultaniqz" target="_blank">
+    <span class="facebook-icon">
+      f
+    </span>
+    <span>Facebook</span>
+    <b>›</b>
+  </a>
+
+  <a href="https://wa.me/02054631734" target="_blank">
+    <span class="whatsapp-icon">
+  <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1557148189667229736/E72E119F-9A26-4B09-991F-3DA8FCCF1640.png?backend=b2&ex=6ac6bec2&is=6ac56d42&hm=63d945c274c7988d26be1aab2c00d5f60dbf0550caa81d7f6687342ef529b5ae&" alt="WhatsApp">
+</span>
+    <span>WhatsApp</span>
+    <b>›</b>
+  </a>
+
+<div class="admin-text">
+  ຕິດຕໍ່ແອັດມິນ
+</div>
+  
+
+</div>
+</header>
+
+<div class="search-box">
+  <span class="search-icon">⌕</span>
+  <input 
+id="search"
+type="text" 
+placeholder="ຄົ້ນຫາສິນຄ້າ..."
+oninput="searchProducts()">
+</div>
+  
+<section class="hero">
+    <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1557190263770980352/5BA8D617-B983-4806-9DC3-BC577171BF8A.png?backend=b2&ex=6ac6e5f2&is=6ac59472&hm=c73396a8173b8993a8a24df6bcf44418aabb8e3f8e7a664fdcefe36b7f688f2c&" class="hero-image">
+</section>
+  
+<div class="shop-status">
+    <div class="status-scroll">
+
+        <div class="status-box">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Sultaniqz ເປີດຮ້ານ</span>
+            <b>08:00 - 23:00</b>
+        </div>
+
+        <div class="line">|</div>
+
+        <div class="status-box">
+            <i class="fa-solid fa-store-slash"></i>
+            <span>ປິດຮ້ານ</span>
+            <strong>23:00 - 08:00</strong>
+        </div>
+
+        <div class="line">|</div>
+
+        <div class="status-box">
+            <i class="fa-solid fa-box"></i>
+            <span>ສັ່ງຊື້ໄດ້ຕະຫຼອດ</span>
+            <b>24 ຊົ່ວໂມງ</b>
+        </div>
+
+        <div class="arrow">
+            »»
+        </div>
+
+      <div class="status-text">
+    <span>
+        🔥 ຮັບຊື້ໄອດີ Roblox ທຸກປະເພດ ສາມາດທັກຫາຮ້ານ Sultaniqz ເບີ02054631734🔥
+    </span>
+</div>
+
+     <div class="status-box">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Sultaniqz ເປີດຮ້ານ</span>
+            <b>08:00 - 23:00</b>
+        </div>
+
+        <div class="line">|</div>
+
+        <div class="status-box">
+            <i class="fa-solid fa-store-slash"></i>
+            <span>ປິດຮ້ານ</span>
+            <strong>23:00 - 08:00</strong>
+        </div>
+
+        <div class="line">|</div>
+
+        <div class="status-box">
+            <i class="fa-solid fa-box"></i>
+            <span>ສັ່ງຊື້ໄດ້ຕະຫຼອດ</span>
+            <b>24 ຊົ່ວໂມງ</b>
+        </div>
+
+        <div class="arrow">
+            »»
+        </div>
+
+      <div class="status-text">
+    <span>
+        🔥 ຮັບຊື້ໄອດີ Roblox ທຸກປະເພດ ສາມາດທັກຫາຮ້ານ Sultaniqz ເບີ02054631734🔥
+    </span>
+</div>
+      
+    </div>
+</div>
+  
+<div class="banner-title">
+    <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1557250378439852052/371A41FA-0BED-4E18-950C-89AB9A99F86F.png?backend=b2&ex=6ac71dee&is=6ac5cc6e&hm=2b6fe64095ea85abba0a7ae0b6627f490d52c8c79dc6f9aa548d58ad9b354a29&" alt="ສິນຄ້າທັງໝົດ">
+</div>
+
+  <div class="product-grid" id="productList">
+
+    <div class="product">
+      <div class="product-img">
+<img src="รูบ">
+</div>
+      <h3>Roblox ID #001</h3>
+      <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+    <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+      <strong>฿ 199</strong>
+    <button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #001',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+    </div>
+
+    <div class="product">
+      <div class="product-img">
+<img src="รูบ">
+</div>
+      <h3>Roblox ID #002</h3>
+      <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+      <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+      <strong>฿ 299</strong>
+      <button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #002',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+    </div>
+
+    <div class="product">
+    <div class="product-img">
+<img src="รูบ">
+</div>
+      <h3>Roblox ID #003</h3>
+      <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+      <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+      <strong>฿ 499</strong>
+    <button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #003',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+    </div>
+
+    <div class="product">
+ <div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #004</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+   <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong>฿ 599</strong>
+  <button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #004',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+
+<div class="product">
+  <div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #005</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+  <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong>฿ 599</strong>
+  <button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #005',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+
+<div class="product">
+<div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #006</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+  <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong>฿ 599</strong>
+<button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #006',
+'฿100',
+'รูปสินค้า'
+)">
+  <i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+
+<div class="product">
+  <div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #007</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+  <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong> 599ກີບ</strong>
+<button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #007',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+
+<div class="product">
+<div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #008</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+  <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong>฿ 599</strong>
+<button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #008',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+
+<div class="product">
+  <div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #009</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+  <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong>฿ 599</strong>
+<button class="buy-btn"
+onclick="buyProduct(
+'Roblox ID #009',
+'฿599',
+'รูปสินค้า'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+
+<div class="product">
+<div class="product-img">
+<img src="รูบ">
+</div>
+  <h3>Roblox ID #010</h3>
+  <p>ສະຖານະ: ພ້ອມຂາຍ</p>
+  <p class="stock">
+<i class="fa-solid fa-box"></i>
+ເຫຼືອ 5 ອັນ
+</p>
+  <strong>฿ 599</strong>
+
+  <button class="buy-btn"
+onclick="openOrder(
+'Roblox ID #010',
+'฿99',
+'roblox10.png'
+)">
+<i class="fa-solid fa-cart-shopping"></i> ສັ່ງຊື້
+</button>
+</div>
+    
+  </div>
+
+<footer>
+  © 2026 Sultaniqz
+</footer>
+
+<div class="bank-box">
+
+<div id="orderPopup" class="order-popup">
+
+<div class="order-box">
+
+<button class="close-order" onclick="closeOrder()">×</button>
+
+<h2>
+ຢືນຢັນການສັ່ງຊື້ສິນຄ້າ
+</h2>
+
+<div class="order-product">
+
+<img id="orderImage" src="">
+
+<div class="order-info">
+
+<h3 id="orderName">
+Roblox ID #001
+</h3>
+
+<p>
+ລາຄາ:
+<span id="orderPrice">
+฿199
+</span>
+</p>
+
+<p class="stock">
+ເຫຼືອ:
+5 ອັນ
+</p>
+
+<p>
+ຈຳນວນ
+</p>
+
+<div class="quantity">
+
+<button onclick="minusQty()">−</button>
+
+<span id="qty">
+1
+</span>
+
+<button onclick="plusQty()">+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="total">
+
+ລວມທັງໝົດ:
+
+<span id="totalPrice">
+฿199
+</span>
+
+</div>
+
+<button class="pay-btn" onclick="showQR()">
+ດຳເນີນການຊຳລະ
+</button>
+
+<button class="cancel-btn"
+onclick="closeOrder()">
+
+ຍົກເລີກ
+
+</button>
+
+<p class="warning">
+
+ກະລຸນາກວດສອບຂໍ້ມູນກ່ອນຢືນຢັນ
+
+</p>
+
+</div>
+
+</div>
+
+<div class="qr-popup" id="qrPopup">
+
+    <div class="qr-box">
+
+        <button class="qr-close" onclick="closeQR()">×</button>
+<h2 class="qr-title">
+    <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1558185909843795978/F162B3EE-5689-4DB2-8AEE-A7672F122518.png?ex=6aca8536&is=6ac933b6&hm=0ac02a7aae8c5801ad95ffc7825cf7568fa47a657d47178ea8a6aaa87dc5e084&" class="bcel-title-icon">
+    ສະແກນ QR Code
+</h2>
+<div class="qr-info">
+
+<p>
+ສິນຄ້າ:
+<span id="qrName">-</span>
+</p>
+
+<p>
+ຈຳນວນ:
+<span id="qrQty">1</span>
+</p>
+
+<p class="qr-total">
+ລວມ:
+<span id="qrTotal">-</span>
+</p>
+
+</div>
+        <img src="https://cdn.discordapp.com/attachments/1556383183140819004/1557582110536114256/04621E45-F4C3-4781-AF7B-0001149ACF26.jpg?ex=6ac852e1&is=6ac70161&hm=20aace67f6e903ca7bf0e44ace107ea166ac42c44256d10617b324fda5192455&" class="qr-img">
+
+      <div class="bank-name">
+    ຊື່ບັນຊີ: BOUNTHAVY XAYSANAVONG<br>
+    ເລກບັນຊີ:0121-238-151262
+</div>
+
+<p>ກະລຸນາສະແກນເພື່ອຊຳລະເງິນ</p>
+<div class="contact-payment">
+
+    <h3>ຕິດຕໍ່ຮ້ານ</h3>
+
+    <a href="https://www.facebook.com/Sultaniqz">
+        <span class="fb-icon">f</span>
+        Facebook
+    </a>
+
+    <a href="https://wa.me/02054631734">
+        <span class="wa-icon">
+    <i class="fa-brands fa-whatsapp"></i>
+</span>
+WhatsApp
+    </a>
+
+</div>
+  
+    </div>
+
+</div>
+</div> <!-- ปิด qr-popup -->
+
+<!-- ຈົບ history-page ຢູ່ຈຸດນີ້ -->
+    <!-- HISTORY ORDER -->
+<div id="historyPage">
+
+    <div class="history-box">
+
+        <button class="history-close" onclick="closeHistory()">×</button>
+
+        <h2>ປະຫວັດການສັ່ງຊື້</h2>
+<div id="historyList"></div>
+        
+</div>
+<script src="script.js"></script>
+</body>
+</html>
